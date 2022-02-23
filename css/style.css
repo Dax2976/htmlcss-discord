@@ -173,11 +173,13 @@ body{
     padding: 6rem;
 }
 
-.section_title{
+.section_title,
+.last_section_title{
     font-size: 3rem;
 }
 
-.sub_title{
+.sub_title,
+.last_sub_title{
     font-size: 1.5rem;
     font-weight: 600;
 }
@@ -192,15 +194,17 @@ body{
     display: block;
   }
 
-  .item2,
+  
+
+.item2,
   .item4{
       background-color: #f6f6f6;
-  }
+  } 
 
-  .last_server {
+  .item4 {
     text-align: center;
   }
-  .img_contact {
+  .img_big {
     margin-left: 1rem;
   }
   .img_big{
@@ -219,3 +223,92 @@ body{
   .stars {
     display: inline-block;
   }
+
+ 
+  .site_footer {
+    background-color: #23272a;
+}
+
+.footer_nav {
+    padding-top: 70px;
+    border-bottom: 2px solid #48557d;
+}
+
+.speaking_place {
+    width: 40%;
+    float: left;
+    padding-right: 110px;
+    line-height: 4rem;
+}
+
+h3 {
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+.ita {
+    width: 20px;
+}
+
+.italian {
+    background-color: transparent;
+    color: white;
+    border-style: none;
+}
+
+.social_icone {
+    line-height: 0px;
+    font-size: 1.2rem;
+}
+
+.social_icone a {
+    text-decoration: none;
+    color: white;
+}
+
+i {
+    padding-right: 20px;
+}
+
+.prodotto {
+    width: 15%;
+    float: left;
+    padding-bottom: 30px;
+}
+
+.prodotto li {
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+    line-height: 2rem;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.blu, h3 {
+    color: #7289da;
+    font-weight: bold;
+}
+
+.endpage {
+    padding-top: 25px;
+    padding-bottom: 80px;
+}
+
+#signup {
+    float: right;
+    border: none;
+    background-color: #8ea1e1;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    border: none;
+    margin: 1rem;
+}
+
